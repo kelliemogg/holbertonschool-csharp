@@ -1,0 +1,1 @@
+This repository contains introductory projects to C#
