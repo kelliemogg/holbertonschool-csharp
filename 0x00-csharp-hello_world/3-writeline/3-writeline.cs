@@ -1,4 +1,6 @@
-﻿using System;
+﻿// using WriteLine 
+
+using System;
 
 namespace _3_writeline
 {
