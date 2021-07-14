@@ -1,12 +1,20 @@
 ﻿using System;
 
-namespace _8_number_keys
+class Dictionary
 {
-    class Program
+    public static int NumberOfKeys(Dictionary<string, string> myDict)
     {
-        static void Main(string[] args)
+        if (myList.Count == 0)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("List is empty");
+            return -1;
         }
+        int max_num = myList[0];
+        foreach (int i in myList)
+        {
+            if (max_num < i)
+                max_num = i;
+        }
+        return max_num;
     }
 }
