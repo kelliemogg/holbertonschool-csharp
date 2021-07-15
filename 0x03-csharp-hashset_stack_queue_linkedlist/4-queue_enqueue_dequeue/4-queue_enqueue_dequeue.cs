@@ -23,7 +23,7 @@ class MyQueue
             } while (aQueue.Contains(search) == condT && aQueue.Count > 0);
         }
         else
-            Console.WriteLine($"Stack contains \"{search}\": False");
+            Console.WriteLine($"Queue contains \"{search}\": False");
         aQueue.Enqueue(newItem);
         return aQueue;
     }
