@@ -15,12 +15,11 @@ namespace _100_jagged_array
             {
                 foreach (int column in row)
                 {
-                    if (column == row.Length)
+                    if (column == row.Length - 1)
                         Console.WriteLine(column);
                     else
                         Console.Write($"{column} ");
                 }
-                Console.WriteLine();
             }
         }
     }
