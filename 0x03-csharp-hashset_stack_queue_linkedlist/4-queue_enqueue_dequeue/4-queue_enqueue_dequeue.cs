@@ -11,7 +11,7 @@ class MyQueue
         count = aQueue.Count;
         Console.WriteLine($"Number of items: {count}");
         if (aQueue.Count == 0)
-            Console.WriteLine("Stack is empty");
+            Console.WriteLine("Queue is empty");
         else
             Console.WriteLine($"First item: {aQueue.Peek()}");
         if (aQueue.Contains(search) == condT)
