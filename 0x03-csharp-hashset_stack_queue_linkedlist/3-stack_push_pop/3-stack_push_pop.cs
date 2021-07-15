@@ -8,7 +8,10 @@ class MyStack
         int count = 0;
         count = aStack.Count;
         Console.WriteLine($"Number of items: {count}");
-        Console.WriteLine($"Top item: {aStack.Peek()}");
+        if (aStack.Count == 0)
+            Console.WriteLine("Stack is empty");
+        else
+            Console.WriteLine($"Top item: {aStack.Peek()}");
         if (aStack.Contains(search) == condT)
         {
             Console.WriteLine($"Stack contains \"{search}\": True");
@@ -20,8 +23,6 @@ class MyStack
         else
             Console.WriteLine($"Stack contains \"{search}\": False");
         aStack.Push(newItem);
-        if (aStack == null)
-            Console.WriteLine("Stack is empty");
         return aStack;
     }
 }
