@@ -6,9 +6,12 @@ class LList
 {
     public static int Pop(LinkedList<int> myLList)
     {
+        int val = 0;
         if (myLList == null)
             return 0;
         var node = myLList.First;
+        val = node.Value;
+        myLList.Remove(myLList.First);
         return node.Value;
     }
 }
