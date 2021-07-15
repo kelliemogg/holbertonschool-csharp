@@ -11,7 +11,7 @@ class LList
             return 0;
         var node = myLList.First;
         val = node.Value;
-        myLList.Remove(myLList.First);
-        return node.Value;
+        myLList.Remove(node);
+        return val;
     }
 }
