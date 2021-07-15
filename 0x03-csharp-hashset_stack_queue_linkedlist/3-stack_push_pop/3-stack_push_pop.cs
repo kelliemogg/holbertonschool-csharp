@@ -18,7 +18,7 @@ class MyStack
             } while (aStack.Contains(search) == condT && aStack.Count > 0);
         }
         else
-            Console.WriteLine($"Stack constains \"{search}\": False");
+            Console.WriteLine($"Stack contains \"{search}\": False");
         aStack.Push(newItem);
         if (aStack == null)
             Console.WriteLine("Stack is empty");
