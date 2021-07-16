@@ -8,7 +8,7 @@ class Dictionary
         string val = "";
         if (myDict.TryGetValue(key, out val))
         {
-            myDict[key] = val + value;
+            myDict[key] = value;
         }
         else
         {
