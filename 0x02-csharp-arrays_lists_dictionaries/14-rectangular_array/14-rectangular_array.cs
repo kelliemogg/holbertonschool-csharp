@@ -13,7 +13,14 @@ class Program
         {
             for (int y = 0; y < h; y++)
             {
-                Console.Write (twod [x, y] + " ");
+                if (y == h - 1)
+                {
+                    Console.Write (twod [x, y]);
+                }
+                else
+                {
+                    Console.Write (twod [x,y] + " ");
+                }
             }
             Console.WriteLine ();
         }
