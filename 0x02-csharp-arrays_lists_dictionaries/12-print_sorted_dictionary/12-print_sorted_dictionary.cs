@@ -1,20 +1,28 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Dictionary
 {
     public static void PrintSorted(Dictionary<string, string> myDict)
     {
-        if (myList.Count == 0)
+        Dictionary<string, string> sortedDict = new Dictionary<string, string>();
+        List<string> tempList = new List<string>();
+        string outValue;
+
+        if (myDict.Count > 0)
         {
-            Console.WriteLine("List is empty");
-            return -1;
+            foreach (var entry in myDict)
+            {
+                tempList.Add(entry.Key);
+            }
+            tempList.Sort();
+            foreach (string entry in tempList)
+            {
+                if (myDict.TryGetValue(entry, out outValue))
+                {
+                    sortedDict.Add(entry, outValue);
+                }
+            }
         }
-        int max_num = myList[0];
-        foreach (int i in myList)
-        {
-            if (max_num < i)
-                max_num = i;
-        }
-        return max_num;
     }
 }
