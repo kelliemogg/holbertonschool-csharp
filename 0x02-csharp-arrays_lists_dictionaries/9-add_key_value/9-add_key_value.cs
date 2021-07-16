@@ -1,20 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Dictionary
 {
     public static Dictionary<string, string> AddKeyValue(Dictionary<string, string> myDict, string key, string value)
     {
-        if (myList.Count == 0)
+        string val = "";
+        if (myDict.TryGetValue(key, out val))
         {
-            Console.WriteLine("List is empty");
-            return -1;
+            myDict[key] = val + value;
         }
-        int max_num = myList[0];
-        foreach (int i in myList)
+        else
         {
-            if (max_num < i)
-                max_num = i;
+            myDict.Add(key, value);
         }
-        return max_num;
+        return myDict;
     }
 }
