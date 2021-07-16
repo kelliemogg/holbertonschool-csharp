@@ -1,20 +1,23 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class List
 {
     public static List<bool> DivisibleBy2(List<int> myList)
     {
-        if (myList.Count == 0)
+        List<bool> newList = new List<bool>();
+    
+        foreach (int val in myList)
         {
-            Console.WriteLine("List is empty");
-            return -1;
+            if (val % 2 == 0)
+            {
+                newList.Add(true);
+            }
+            else
+            {
+                newList.Add(false);
+            }
         }
-        int max_num = myList[0];
-        foreach (int i in myList)
-        {
-            if (max_num < i)
-                max_num = i;
-        }
-        return max_num;
+        return newList;
     }
 }
