@@ -1,20 +1,23 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 class List
 {
     public static List<int> DeleteAt(List<int> myList, int index)
     {
-        if (myList.Count == 0)
+        if (index < 0 || index > myList.Count)
         {
-            Console.WriteLine("List is empty");
-            return -1;
+            Console.WriteLine("Index is out of range");
+            return myList;
         }
-        int max_num = myList[0];
-        foreach (int i in myList)
+        for (int i = 0; i <= index; i++)
         {
-            if (max_num < i)
-                max_num = i;
+            if (i == index)
+            {
+            myList.Remove(i);
+            }
         }
-        return max_num;
+        return myList;
     }
 }
