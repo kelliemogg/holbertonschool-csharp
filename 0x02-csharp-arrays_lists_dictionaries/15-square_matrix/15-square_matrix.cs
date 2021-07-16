@@ -4,18 +4,17 @@ class Matrix
 {
     public static int[,] Square(int[,] myMatrix)
     {
-        if (myList.Count == 0)
+        int [,] squared = myMatrix;
+        int rows = myMatrix.GetLength(0);
+        int cols = myMatrix.GetLength(1);
+
+        for (int x = 0; x < rows; x++)
         {
-            Console.WriteLine("List is empty");
-            return -1;
+            for (int y = 0; y < cols; y++)
+            {
+                myMatrix[x, y] *= myMatrix[x, y];
+            }
         }
-        int max_num = myList[0];
-        foreach (int i in myList)
-        {
-            if (max_num < i)
-                max_num = i;
-        }
-        return max_num;
+        return squared;
     }
 }
-
