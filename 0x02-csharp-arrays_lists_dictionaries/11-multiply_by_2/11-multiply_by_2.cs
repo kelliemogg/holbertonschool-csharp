@@ -1,20 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Dictionary
 {
     public static Dictionary<string, int> MultiplyBy2(Dictionary<string, int> myDict)
     {
-        if (myList.Count == 0)
+        Dictionary<string, int> temp = new Dictionary<string, int>(myDict);
+        foreach (var entry in myDict)
         {
-            Console.WriteLine("List is empty");
-            return -1;
+            temp[entry.Key] = entry.Value * 2;
         }
-        int max_num = myList[0];
-        foreach (int i in myList)
-        {
-            if (max_num < i)
-                max_num = i;
-        }
-        return max_num;
+        return temp;
     }
 }
