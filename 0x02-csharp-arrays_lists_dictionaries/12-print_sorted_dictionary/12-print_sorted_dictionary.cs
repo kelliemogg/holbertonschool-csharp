@@ -7,7 +7,6 @@ class Dictionary
     {
         Dictionary<string, string> sortedDict = new Dictionary<string, string>();
         List<string> tempList = new List<string>();
-        string outValue;
 
         if (myDict.Count > 0)
         {
@@ -16,12 +15,9 @@ class Dictionary
                 tempList.Add(entry.Key);
             }
             tempList.Sort();
-            foreach (string entry in tempList)
+            foreach (var key in tempList)
             {
-                if (myDict.TryGetValue(entry, out outValue))
-                {
-                    sortedDict.Add(entry, outValue);
-                }
+                Console.WriteLine("{0}: {1}", key, myDict[key]);
             }
         }
     }
