@@ -1,20 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Dictionary
 {
     public static int NumberOfKeys(Dictionary<string, string> myDict)
     {
-        if (myList.Count == 0)
+        int count = 0;
+        foreach (KeyValuePair<string, string> entry in myDict)
         {
-            Console.WriteLine("List is empty");
-            return -1;
+            count += 1;
         }
-        int max_num = myList[0];
-        foreach (int i in myList)
-        {
-            if (max_num < i)
-                max_num = i;
-        }
-        return max_num;
+        return count;
     }
 }
