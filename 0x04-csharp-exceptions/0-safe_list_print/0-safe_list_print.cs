@@ -5,22 +5,17 @@ class List
 {
     public static int SafePrint(List<int> myList, int n)
     {
-        for (int i = 0; i < myList.Count; i++)
+        int a = 0;
+        while (a < n)
         {
             try
             {
-                if (n < myList.Count)
-                {
-                    Console.WriteLine(i);
-                }
-                return (i);
+                Console.WriteLine(myList[a]);
+                a++;
             }
             catch (System.Exception)
             {
-                foreach (int val in myList)
-                {
-                    Console.WriteLine(val);
-                }
+                return (a);
             }
         }
         return (n);
