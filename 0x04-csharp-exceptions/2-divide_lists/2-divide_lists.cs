@@ -23,7 +23,6 @@ class List
             catch
             {
                 Console.WriteLine("Out of range");
-                results.Add(0);
             }
         }
         return (results);
