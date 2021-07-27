@@ -18,12 +18,11 @@ namespace Enemies
         {
             this.health = 0;
         }
+        /// <summary>
+        /// instance of Zombie with params passed
+        /// </summary>
         public Zombie(int value)
         {
-            /// <summary>
-            /// Constructor that takes parameters
-            /// Add conditional for values
-            /// </summary>
             if (value < 0)
             {
                 throw new ArgumentException("Health must be greater than or equal to 0");
