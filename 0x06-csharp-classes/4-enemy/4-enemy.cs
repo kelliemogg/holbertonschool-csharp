@@ -14,7 +14,7 @@ namespace Enemies
         /// <summary>
         /// Creates private field name
         /// </summary>
-        private string name;
+        private string name = "(No name)";
         /// <summary>
         /// Creates public Zombie obj
         /// </summary>
