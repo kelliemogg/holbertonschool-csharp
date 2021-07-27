@@ -26,8 +26,6 @@ struct Dog
     {
         if (name == null)
             name = "";
-        if (age == null)
-            age = 0;
         if (owner == null)
             owner = "";
         return "Dog Name: " + name.ToString() + '\n'
