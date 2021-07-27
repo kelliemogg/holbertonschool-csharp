@@ -10,7 +10,7 @@ namespace Enemies
         /// <summary>
         /// Creates public field health
         /// </summary>
-        public int health;
+        private int health;
         /// <summary>
         /// Initialize new instance
         /// </summary>
@@ -23,12 +23,15 @@ namespace Enemies
         /// </summary>
         public Zombie(int value)
         {
-            if (value < 0)
-            {
-                throw new ArgumentException("Health must be greater than or equal to 0");
-            }
-            else
+            if (value >= 0)
                 this.health = value;
+        }
+        /// <summary>
+        /// Gets Health of Zombie object
+        /// </summary>
+        public int GetHealth()
+        {
+            return health;
         }
     }
 }
