@@ -2,19 +2,18 @@ using NUnit.Framework;
 
 namespace MyMath.Tests
 {
-    [TestFixture]
+    [TestClass]
     /// <summary> Tests for max_int </summary>
-    public class Tests
+    public class OperationsTests
     {
-        [SetUp]
-        public void Setup()
+        [TestMethod]
+        public void Max()
         {
-        }
+            List<int> testList = new List<int>();
+            testList.AddRange(Enumerable.Range(1, 10));
+            int results = Operations.Max(testList);
 
-        [Test]
-        public void Test1()
-        {
-            Assert.Pass();
+            Assert.AreEqual(10, output);
         }
     }
 }
