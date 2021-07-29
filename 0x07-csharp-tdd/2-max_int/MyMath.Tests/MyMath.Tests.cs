@@ -1,7 +1,9 @@
 using NUnit.Framework;
 
-namespace Tests
+namespace MyMath.Tests
 {
+    [TestFixture]
+    /// <summary> Tests for max_int </summary>
     public class Tests
     {
         [SetUp]
