@@ -17,7 +17,7 @@ namespace MyMath
             {
                 if (nums[itr] > max)
                 {
-                    max = itr;
+                    max = nums[itr];
                 }
             }
             return max;
