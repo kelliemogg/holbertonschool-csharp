@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>
+            Defines class Zombie 
+            </summary>
+        </member>
+        <member name="F:Enemies.Zombie.health">
+            <summary>
+            Creates public field health
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary>
+            Initialize new instance
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32)">
+            <summary>
+            instance of Zombie with params passed
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.GetHealth">
+            <summary>
+            Gets Health of Zombie object
+            </summary>
+        </member>
+    </members>
+</doc>

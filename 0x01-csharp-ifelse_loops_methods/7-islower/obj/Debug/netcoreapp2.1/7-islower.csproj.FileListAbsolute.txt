@@ -1,0 +1,11 @@
+/home/vagrant/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/7-islower/obj/Debug/netcoreapp2.1/7-islower.csprojAssemblyReference.cache
+/home/vagrant/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/7-islower/obj/Debug/netcoreapp2.1/7-islower.csproj.CoreCompileInputs.cache
+/home/vagrant/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/7-islower/obj/Debug/netcoreapp2.1/7-islower.AssemblyInfoInputs.cache
+/home/vagrant/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/7-islower/obj/Debug/netcoreapp2.1/7-islower.AssemblyInfo.cs
+/home/vagrant/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/7-islower/bin/Debug/netcoreapp2.1/7-islower.deps.json
+/home/vagrant/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/7-islower/bin/Debug/netcoreapp2.1/7-islower.runtimeconfig.json
+/home/vagrant/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/7-islower/bin/Debug/netcoreapp2.1/7-islower.runtimeconfig.dev.json
+/home/vagrant/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/7-islower/bin/Debug/netcoreapp2.1/7-islower.dll
+/home/vagrant/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/7-islower/bin/Debug/netcoreapp2.1/7-islower.pdb
+/home/vagrant/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/7-islower/obj/Debug/netcoreapp2.1/7-islower.dll
+/home/vagrant/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/7-islower/obj/Debug/netcoreapp2.1/7-islower.pdb

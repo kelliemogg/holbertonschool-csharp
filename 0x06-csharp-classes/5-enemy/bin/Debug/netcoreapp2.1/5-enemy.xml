@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>5-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>
+            Defines class Zombie 
+            </summary>
+        </member>
+        <member name="F:Enemies.Zombie.health">
+            <summary>
+            Creates private field health
+            </summary>
+        </member>
+        <member name="F:Enemies.Zombie.name">
+            <summary>
+            Creates private field name
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary>
+            Creates public Zombie obj
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32)">
+            <summary>
+            instance of Zombie with params passed
+            </summary>
+        </member>
+        <member name="P:Enemies.Zombie.Name">
+            <summary>
+            Gets Health of Zombie object
+            </summary>
+            <summary>
+            gets and sets values for Name
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.GetHealth">
+            <summary>
+            returns the Health for a zombie
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.ToString">
+            <summary>
+            Overrides ToString to print ideal output about objs
+            </summary>
+        </member>
+    </members>
+</doc>
