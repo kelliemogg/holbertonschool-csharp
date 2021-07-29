@@ -11,7 +11,7 @@ namespace MyMath
             int a, b = 0;
             int array1 = matrix.GetLength(0);
             int array2 = matrix.GetLength(1);
-            int [,] newMatrix = new int[array1, array2];
+            int [,] newMatrix = matrix;
             if (matrix == null)
             {
                 return null;
@@ -22,7 +22,7 @@ namespace MyMath
                 {
                     for (b = 0; b < array2; b++)
                     {
-                        newMatrix = matrix[a, b] /= num;
+                        newMatrix[a, b] /= num;
                     }
                 }
             }
