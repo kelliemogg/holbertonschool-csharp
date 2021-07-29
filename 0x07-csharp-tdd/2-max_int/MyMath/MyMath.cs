@@ -9,10 +9,10 @@ namespace MyMath
         /// <summary> Find max int in a list </summary>
         public static int Max(List<int> nums)
         {
-            int max = nums[0];
             int itr = 0;
             if (nums.Count == 0)
                 return 0;
+            int max = nums[0];
             for (itr = 0; itr < nums.Count; itr++)
             {
                 if (nums[itr] > max)
