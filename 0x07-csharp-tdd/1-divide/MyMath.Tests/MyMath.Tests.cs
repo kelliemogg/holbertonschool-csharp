@@ -1,7 +1,9 @@
 using NUnit.Framework;
 
-namespace Tests
+namespace MyMath.Tests
 {
+    [TestFixture]
+    /// <summary> Tests for MyMath divide </summary>
     public class Tests
     {
         [SetUp]
@@ -12,7 +14,10 @@ namespace Tests
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            int a = 10;
+            int b = 5;
+            int res = Operations.Divide(a, b);
+            Assert.AreEqual(2, res);
         }
     }
 }
