@@ -13,7 +13,7 @@ namespace MyMath
             int itr = 0;
             if (nums == null)
                 return 0;
-            for (itr = 0; itr <= nums.Count; itr++)
+            for (itr = 0; itr < nums.Count; itr++)
             {
                 if (nums[itr] > max)
                 {
