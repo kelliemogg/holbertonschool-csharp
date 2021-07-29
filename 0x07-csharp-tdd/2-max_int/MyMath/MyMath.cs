@@ -15,7 +15,7 @@ namespace MyMath
                 return 0;
             for (itr = 0; itr <= nums.Count; itr++)
             {
-                if (itr > max)
+                if (nums[itr] > max)
                 {
                     max = itr;
                 }
