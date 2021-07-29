@@ -5,7 +5,7 @@ namespace MyMath.Tests
 {
     [TestFixture]
     /// <summary> Tests for max_int </summary>
-    public class OperationsTests
+    public class Tests
     {
         [Test]
         public void Max_end()
