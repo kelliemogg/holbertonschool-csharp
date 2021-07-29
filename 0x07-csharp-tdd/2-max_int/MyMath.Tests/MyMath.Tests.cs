@@ -8,7 +8,7 @@ namespace MyMath.Tests
     public class Tests
     {
         [Test]
-        public void Max_end()
+        public void Testend()
         {
             List<int> testList = new List<int>();
             testList.Add(5);
@@ -20,7 +20,7 @@ namespace MyMath.Tests
             Assert.AreEqual(9, results);
         }
         [Test]
-        public void Max_beginning()
+        public void Testbeginning()
         {
             List<int> testList = new List<int>();
             testList.Add(9);
@@ -32,7 +32,7 @@ namespace MyMath.Tests
             Assert.AreEqual(9, results);
         }
         [Test]
-        public void Max_middle()
+        public void Testmiddle()
         {
             List<int> testList = new List<int>();
             testList.Add(5);
@@ -44,9 +44,9 @@ namespace MyMath.Tests
             Assert.AreEqual(9, results);
         }
         [Test]
-        public void Max_negative()
+        public void Testnegative()
         {
-            List<int> newList = new List<int>();
+            List<int> testList = new List<int>();
             testList.Add(-5);
             testList.Add(-7);
             testList.Add(-9);
@@ -56,9 +56,9 @@ namespace MyMath.Tests
             Assert.AreEqual(-5, results);
         }
         [Test]
-        public void Max_empty()
+        public void Testempty()
         {
-            List<int> newList = new List<int>();
+            List<int> testList = new List<int>();
             
             int results = Operations.Max(testList);
 
