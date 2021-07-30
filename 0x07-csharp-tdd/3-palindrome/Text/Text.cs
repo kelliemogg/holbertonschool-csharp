@@ -33,11 +33,12 @@ namespace Text
             {
                 og[i] = compare[i];
             }
-            if (og == compare)
+            for (int i = 0; i < newStr.Length; i++)
             {
-                return true;
+                if (og[i] != compare[i])
+                    return false;
             }
-            return false;
+            return true;
         }
     }
 }
