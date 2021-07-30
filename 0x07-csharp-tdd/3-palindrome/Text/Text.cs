@@ -34,10 +34,13 @@ namespace Text
             {
                 og[i] = compare[i];
             }
+            Array.Reverse(compare);
             for (int i = 0; i < newStr.Length; i++)
             {
                 if (og[i] != compare[i])
+                {
                     return false;
+                }
             }
             return true;
         }
