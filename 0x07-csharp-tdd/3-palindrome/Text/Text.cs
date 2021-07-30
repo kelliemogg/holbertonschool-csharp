@@ -10,12 +10,19 @@ namespace Text
         /// <summary> palindrome check </summary>
         public static bool IsPalindrome(string s)
         {
-            var newStr = s;
-            var charsToRemove = new string[] {"@", ".", ",", " ", ":", ";", "'"};
-            foreach (var ch in charsToRemove)
+            if (s.Length == 0)
             {
-                newStr = s.Replace(ch, string.Empty);
+                return true;
             }
+            var newStr = s; 
+            newStr.Replace("@", "");
+            newStr.Replace(",", "");
+            newStr.Replace(".", "");
+            newStr.Replace(" ", "");
+            newStr.Replace(":", "");
+            newStr.Replace(";", "");
+            newStr.Replace("@", "'");
+            newStr.Replace("@", "?");
             if (newStr.Length <= 1)
             {
                 return true;
