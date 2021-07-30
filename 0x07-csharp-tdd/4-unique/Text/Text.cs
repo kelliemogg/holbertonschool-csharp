@@ -13,7 +13,7 @@ namespace Text
             char first = s[0];
             for (int i = 0; i < s.Length; i++)
             {
-                if (first != s[i])
+                if (first != s[i] && s[i] != s[i + 1])
                 {
                     return (i);
                 }
