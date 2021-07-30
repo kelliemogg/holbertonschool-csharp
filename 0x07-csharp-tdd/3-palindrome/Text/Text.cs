@@ -36,14 +36,9 @@ namespace Text
             for (int i = 0; i < newStr.Length; i++)
             {
                 if (og[i] != compare[i])
-                {
                     return false;
-                }
-                else
-                {
-                    return true;
-                }
             }
+            return true;
         }
     }
 }
