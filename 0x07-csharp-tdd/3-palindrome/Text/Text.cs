@@ -15,6 +15,7 @@ namespace Text
                 return true;
             }
             var newStr = s; 
+            newStr.ToLower();
             newStr.Replace("@", "");
             newStr.Replace(",", "");
             newStr.Replace(".", "");
