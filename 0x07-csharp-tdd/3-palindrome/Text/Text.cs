@@ -21,8 +21,8 @@ namespace Text
             newStr.Replace(" ", "");
             newStr.Replace(":", "");
             newStr.Replace(";", "");
-            newStr.Replace("@", "'");
-            newStr.Replace("@", "?");
+            newStr.Replace("!", "");
+            newStr.Replace("?", "");
             if (newStr.Length <= 1)
             {
                 return true;
