@@ -27,10 +27,17 @@ namespace Text
             {
                 return true;
             }
-            else
+            char [] og = newStr.ToCharArray();
+            char [] compare = new char[newStr.Length];
+            for (int i = og.Length - 1; i >= 0; i--)
             {
-                return false;
+                og[i] = compare[i];
             }
+            if (og == compare)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
