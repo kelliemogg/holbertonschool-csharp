@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>3-type_get</name>
+    </assembly>
+    <members>
+        <member name="T:Obj">
+            <summary> class Obj </summary>
+        </member>
+    </members>
+</doc>
