@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>9-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary> class Shape </summary>
+        </member>
+        <member name="T:Rectangle">
+            <summary> Rect inherits from Shape </summary>
+        </member>
+    </members>
+</doc>
