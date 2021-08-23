@@ -7,8 +7,9 @@ class VectorMath
 {
     public static double DotProduct(double[] vector1, double[] vector2)
     {
-        Double lengthResult1 = vector1.Length;
-        Double lengthResult2 = vector2.Length;
+        double not = -1;
+        double lengthResult1 = vector1.Length;
+        double lengthResult2 = vector2.Length;
 
         if (lengthResult1 == 2 && lengthResult2 == 2)
         {
@@ -22,10 +23,10 @@ class VectorMath
             double result3D = 0;
             result3D = (vector1[0] * vector2[0]);
             result3D += (vector1[1] * vector2[1]);
-            result3D += (vector1[2] * vector2[2])
+            result3D += (vector1[2] * vector2[2]);
             return result3D;
         }
         else
-            return new double[] {-1};
+            return not;
     }
 }
