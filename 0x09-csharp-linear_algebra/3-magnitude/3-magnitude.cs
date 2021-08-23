@@ -4,6 +4,7 @@
 
 class VectorMath
 {
+    /// <summary> Gets the length of the vector </summary>
     public static double Magnitude(double[] vector)
     {
         Double lengthResult = vector.Length;
