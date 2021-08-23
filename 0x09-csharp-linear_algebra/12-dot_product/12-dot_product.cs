@@ -1,5 +1,5 @@
 ﻿using System;
-/// </summary>
+/// <summary>
 /// Vector Math
 /// </summary>
 
