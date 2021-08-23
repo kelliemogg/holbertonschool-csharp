@@ -1,0 +1,15 @@
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/net5.0/9-vector_scalar_mul.csproj.AssemblyReference.cache
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/net5.0/9-vector_scalar_mul.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/net5.0/9-vector_scalar_mul.AssemblyInfoInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/net5.0/9-vector_scalar_mul.AssemblyInfo.cs
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/net5.0/9-vector_scalar_mul.csproj.CoreCompileInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/net5.0/9-vector_scalar_mul.deps.json
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/net5.0/9-vector_scalar_mul.runtimeconfig.json
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/net5.0/9-vector_scalar_mul.runtimeconfig.dev.json
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/net5.0/9-vector_scalar_mul.dll
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/net5.0/ref/9-vector_scalar_mul.dll
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/bin/Debug/net5.0/9-vector_scalar_mul.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/net5.0/9-vector_scalar_mul.dll
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/net5.0/ref/9-vector_scalar_mul.dll
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/net5.0/9-vector_scalar_mul.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x09-csharp-linear_algebra/9-vector_scalar_mul/obj/Debug/net5.0/9-vector_scalar_mul.genruntimeconfig.cache
