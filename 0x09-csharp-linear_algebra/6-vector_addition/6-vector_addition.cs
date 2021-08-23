@@ -30,6 +30,6 @@ class VectorMath
             return result3D;
         }
         else
-            return -1;
+            return new double[] {-1};
     }
 }
