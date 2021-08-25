@@ -4,7 +4,7 @@ class MatrixMath
 {
     public static double[,] Transpose(double[,] matrix)
     {
-        double[,] empty = {{ }};
+        double[,] empty = {{}};
             return empty;
     }
 }
