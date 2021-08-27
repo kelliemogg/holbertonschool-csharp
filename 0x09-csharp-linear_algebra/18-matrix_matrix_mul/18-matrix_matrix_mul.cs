@@ -12,14 +12,16 @@ class MatrixMath
         double col2 = matrix2.GetLength(1);
         int i, j, k = 0;
 
+        /* Make sure first matrix col == matrix2 rows */
         if (matrix1.GetLength(1) == matrix2.GetLength(0))
         {
+            /* newMatrix == matrix1 rows x matrix2 columns */
             newMatrix = new double[matrix1.GetLength(0), matrix2.GetLength(1)];
-            for (i = 0; i < col2; i++)
+            for (i = 0; i < row1; i++)
             {
-                for (j = 0; j < col1; j++)
+                for (j = 0; j < col2; j++)
                 {
-                    for (k = 0; k < row2; k++)
+                    for (k = 0; k < col1; k++)
                     {
                         newMatrix[i, j] += matrix1[i, k] * matrix2[k, j];
                     }
