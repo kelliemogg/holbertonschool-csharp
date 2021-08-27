@@ -32,7 +32,7 @@ class MatrixMath
         }
         else if (len1 == 3 && len2 == 3 && seclen1 == 3 && seclen2 == 3)
         {
-            newMatrix = new double[2, 2];
+            newMatrix = new double[3, 3];
             for (i = 0; i < len1; i++)
             {
                 for (j = 0; j < len2; j++)
