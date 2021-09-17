@@ -1,8 +1,9 @@
 ﻿using System;
 
-class Program
+class ImageProcessor
 {
-    static void Main(string[] args)
+    public static void Inverse(string[] filenames)
     {
+        return 1;
     }
 }
