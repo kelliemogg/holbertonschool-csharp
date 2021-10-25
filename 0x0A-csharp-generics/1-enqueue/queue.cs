@@ -16,18 +16,31 @@ public class Queue<T>
     {
         return typeof(T);
     }
-
+    /// <summary>
+    /// class node defined 
+    /// </summary>
     public class Node
     {
+        /// <summary>
+        /// declaring value
+        /// </summary>
         public object value = null;
+        /// <summary>
+        /// defining next
+        /// </summary>
         public Node next = null;
+        /// <summary>
+        /// obj value 
+        /// </summary>
         public object Value
         {
             get { return value; }
             set { this.value = value; }
         }
     }
-
+    /// <summary>
+    /// enqueue 
+    /// </summary>
     public void Enqueue(T value)
     {
         Node new_n = new Node();
@@ -47,6 +60,9 @@ public class Queue<T>
             count++;
         }
     }
+    /// <summary>
+    /// counts number of nodes added 
+    /// </summary>
     public int Count()
     {
         return count;
