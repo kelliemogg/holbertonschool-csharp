@@ -6,25 +6,19 @@
 
 public class Queue<T>
 {
-    /// <summary>
-    /// defines generic class and checks the type 
-    /// </summary>
     Node head;
     Node tail;
     int count;
-    public System.Type CheckType()
     /// <summary>
-    /// checks type 
+    /// defines generic class and checks the type 
     /// </summary>
+    public Type CheckType()
     {
         return typeof(T);
     }
 
     public class Node
     {
-        /// <summary>
-        /// gets and sets the value of a node 
-        /// </summary>
         public object value = null;
         public Node next = null;
         public object Value
@@ -33,10 +27,8 @@ public class Queue<T>
             set { this.value = value; }
         }
     }
+
     public void Enqueue(T value)
-    /// <summary>
-    /// adds a new node to the end of a queue 
-    /// </summary>
     {
         Node new_n = new Node();
 

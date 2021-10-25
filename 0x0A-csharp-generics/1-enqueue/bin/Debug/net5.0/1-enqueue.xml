@@ -9,14 +9,9 @@
             Generic data type of class Queue
              </summary>
         </member>
-        <member name="F:Queue`1.head">
+        <member name="M:Queue`1.CheckType">
             <summary>
             defines generic class and checks the type 
-            </summary>
-        </member>
-        <member name="F:Queue`1.Node.value">
-            <summary>
-            gets and sets the value of a node 
             </summary>
         </member>
     </members>
