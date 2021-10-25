@@ -1,9 +1,10 @@
 ﻿using System;
-/// Generic data type
-/// of class Queue ///
+/// <summary>
+///Generic data type of class Queue
+/// </summary>
 public class Queue<T>
 {
-    /// defines generic class and checks the type ///
+    /// <summary> defines generic class and checks the type </summary> ///
     public Type CheckType() 
     {
         return typeof(T);
