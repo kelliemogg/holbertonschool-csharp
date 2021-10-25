@@ -1,0 +1,16 @@
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/obj/Debug/net5.0/1-enqueue.csproj.AssemblyReference.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/obj/Debug/net5.0/1-enqueue.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/obj/Debug/net5.0/1-enqueue.AssemblyInfoInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/obj/Debug/net5.0/1-enqueue.AssemblyInfo.cs
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/obj/Debug/net5.0/1-enqueue.csproj.CoreCompileInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/bin/Debug/net5.0/1-enqueue.deps.json
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/bin/Debug/net5.0/1-enqueue.runtimeconfig.json
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/bin/Debug/net5.0/1-enqueue.runtimeconfig.dev.json
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/bin/Debug/net5.0/1-enqueue.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/bin/Debug/net5.0/ref/1-enqueue.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/bin/Debug/net5.0/1-enqueue.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/bin/Debug/net5.0/1-enqueue.xml
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/obj/Debug/net5.0/1-enqueue.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/obj/Debug/net5.0/ref/1-enqueue.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/obj/Debug/net5.0/1-enqueue.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x0A-csharp-generics/1-enqueue/obj/Debug/net5.0/1-enqueue.genruntimeconfig.cache

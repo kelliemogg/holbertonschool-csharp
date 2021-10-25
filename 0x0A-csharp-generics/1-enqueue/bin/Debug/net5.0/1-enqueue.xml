@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1-enqueue</name>
+    </assembly>
+    <members>
+        <member name="T:Queue`1">
+             <summary>
+            Generic data type of class Queue
+             </summary>
+        </member>
+        <member name="F:Queue`1.head">
+            <summary>
+            defines generic class and checks the type 
+            </summary>
+        </member>
+        <member name="F:Queue`1.Node.value">
+            <summary>
+            gets and sets the value of a node 
+            </summary>
+        </member>
+    </members>
+</doc>
