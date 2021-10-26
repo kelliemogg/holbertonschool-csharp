@@ -85,12 +85,15 @@ public class Queue<T>
     {
         return count;
     }
+    /// <summary>
+    /// peeks at the value in a node 
+    /// </summary>
     public object Peek()
     {
         if (head == null)
         {
             Console.WriteLine("Queue is empty");
-            return null;
+            return default(T);
         }
         else
         {
