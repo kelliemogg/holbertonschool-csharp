@@ -122,14 +122,14 @@ public class Queue<T>
     /// <summary>
     /// Concatenate all nodes in a list
     /// </summary>
-    public object Concatenate()
+    public string Concatenate()
     {
         if (head == null)
         {
             Console.WriteLine("Queue is empty");
             return null;
         }
-        else if (head.value == typeof(String))
+        else if (this.CheckType() == typeof(string))
         {
             Node temp = head;
             String new_str = "";
@@ -144,7 +144,7 @@ public class Queue<T>
             }
             return new_str;
         }
-        else if (head.value == typeof(Char))
+        else if (this.CheckType() == typeof(char))
         {
             Node temp = head;
             String word = "";
