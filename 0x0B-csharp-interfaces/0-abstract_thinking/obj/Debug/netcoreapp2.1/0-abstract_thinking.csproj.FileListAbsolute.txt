@@ -1,0 +1,13 @@
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/obj/Debug/netcoreapp2.1/0-abstract_thinking.csproj.AssemblyReference.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/obj/Debug/netcoreapp2.1/0-abstract_thinking.AssemblyInfoInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/obj/Debug/netcoreapp2.1/0-abstract_thinking.AssemblyInfo.cs
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/obj/Debug/netcoreapp2.1/0-abstract_thinking.csproj.CoreCompileInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/bin/Debug/netcoreapp2.1/0-abstract_thinking.deps.json
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/bin/Debug/netcoreapp2.1/0-abstract_thinking.runtimeconfig.json
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/bin/Debug/netcoreapp2.1/0-abstract_thinking.runtimeconfig.dev.json
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/bin/Debug/netcoreapp2.1/0-abstract_thinking.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/bin/Debug/netcoreapp2.1/0-abstract_thinking.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/bin/Debug/netcoreapp2.1/0-abstract_thinking.xml
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/obj/Debug/netcoreapp2.1/0-abstract_thinking.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/obj/Debug/netcoreapp2.1/0-abstract_thinking.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/0-abstract_thinking/obj/Debug/netcoreapp2.1/0-abstract_thinking.genruntimeconfig.cache
