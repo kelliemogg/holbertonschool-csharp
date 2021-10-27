@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>2-doors</name>
+    </assembly>
+    <members>
+        <member name="T:Base">
+            <summary>
+            abstract class Base
+            </summary>
+        </member>
+        <member name="P:Base.name">
+            <summary>
+            declare public string name
+            </summary>
+        </member>
+        <member name="M:Base.ToString">
+            <summary>
+            overriding ToString
+            </summary>
+        </member>
+        <member name="T:IInteractive">
+            <summary>
+            Interface Interactive
+            </summary>
+        </member>
+        <member name="M:IInteractive.Interact">
+            <summary>
+            declare public void Interact()
+            </summary>
+        </member>
+        <member name="T:IBreakable">
+            <summary>
+            Interface Breakable
+            </summary>
+        </member>
+        <member name="P:IBreakable.durability">
+            <summary>
+            declare property durability
+            </summary>
+        </member>
+        <member name="M:IBreakable.Break">
+            <summary>
+            declare public void Break()
+            </summary>
+        </member>
+        <member name="T:ICollectable">
+            <summary>
+            Interface Collectable
+            </summary>
+        </member>
+        <member name="P:ICollectable.isCollected">
+            <summary>
+            property isCollected
+            </summary>
+        </member>
+        <member name="M:ICollectable.Collect">
+            <summary>
+            declare public void Collect()
+            </summary>
+        </member>
+        <member name="T:Door">
+            <summary>
+            class Door
+            </summary>
+        </member>
+        <member name="M:Door.#ctor(System.String)">
+            <summary>
+            constructor
+            </summary>
+        </member>
+        <member name="M:Door.Interact">
+            <summary>
+            override Interact
+            </summary>
+        </member>
+    </members>
+</doc>

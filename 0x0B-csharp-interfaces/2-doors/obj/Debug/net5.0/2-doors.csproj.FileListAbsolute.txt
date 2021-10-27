@@ -1,0 +1,16 @@
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/obj/Debug/net5.0/2-doors.csproj.AssemblyReference.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/obj/Debug/net5.0/2-doors.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/obj/Debug/net5.0/2-doors.AssemblyInfoInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/obj/Debug/net5.0/2-doors.AssemblyInfo.cs
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/obj/Debug/net5.0/2-doors.csproj.CoreCompileInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/bin/Debug/net5.0/2-doors.deps.json
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/bin/Debug/net5.0/2-doors.runtimeconfig.json
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/bin/Debug/net5.0/2-doors.runtimeconfig.dev.json
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/bin/Debug/net5.0/2-doors.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/bin/Debug/net5.0/ref/2-doors.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/bin/Debug/net5.0/2-doors.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/bin/Debug/net5.0/2-doors.xml
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/obj/Debug/net5.0/2-doors.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/obj/Debug/net5.0/ref/2-doors.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/obj/Debug/net5.0/2-doors.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/2-doors/obj/Debug/net5.0/2-doors.genruntimeconfig.cache
