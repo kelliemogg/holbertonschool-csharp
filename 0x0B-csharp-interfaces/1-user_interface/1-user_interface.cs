@@ -73,6 +73,14 @@ public class TestObject : Base, IInteractive, IBreakable, ICollectable
     /// property name
     /// </summary>
     public string name { get; set; }
+    
+    /// <summary>
+    /// overriding ToString
+    /// </summary>
+    public override string ToString()
+    {
+        return name + " is a " + GetType().Name;
+    }
     /// <summary>
     /// override public void Interact()
     /// </summary>
