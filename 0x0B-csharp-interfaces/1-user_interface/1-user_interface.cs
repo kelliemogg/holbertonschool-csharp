@@ -56,6 +56,9 @@ public interface ICollectable
     /// </summary>
     void Collect();
 }
+/// <summary>
+/// class Test Object
+/// </summary>
 public class TestObject : Base, IInteractive, IBreakable, ICollectable
 {
     /// <summary>
