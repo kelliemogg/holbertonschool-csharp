@@ -70,6 +70,10 @@ public class TestObject : Base, IInteractive, IBreakable, ICollectable
     /// </summary>
     public bool isCollected { get; set; }
     /// <summary>
+    /// property name
+    /// </summary>
+    public string name { get; set; }
+    /// <summary>
     /// override public void Interact()
     /// </summary>
     public void Interact()
