@@ -1,0 +1,16 @@
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/bin/Debug/net5.0/4-keys.deps.json
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/bin/Debug/net5.0/4-keys.runtimeconfig.json
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/bin/Debug/net5.0/4-keys.runtimeconfig.dev.json
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/bin/Debug/net5.0/4-keys.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/bin/Debug/net5.0/ref/4-keys.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/bin/Debug/net5.0/4-keys.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/bin/Debug/net5.0/4-keys.xml
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/obj/Debug/net5.0/4-keys.csproj.AssemblyReference.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/obj/Debug/net5.0/4-keys.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/obj/Debug/net5.0/4-keys.AssemblyInfoInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/obj/Debug/net5.0/4-keys.AssemblyInfo.cs
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/obj/Debug/net5.0/4-keys.csproj.CoreCompileInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/obj/Debug/net5.0/4-keys.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/obj/Debug/net5.0/ref/4-keys.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/obj/Debug/net5.0/4-keys.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x0B-csharp-interfaces/4-keys/obj/Debug/net5.0/4-keys.genruntimeconfig.cache
