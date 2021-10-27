@@ -8,7 +8,7 @@ public abstract class Base
     /// <summary>
     /// declare public string name
     /// </summary>
-    public string name;
+    string name { get; set; }
     /// <summary>
     /// overriding ToString
     /// </summary>
@@ -73,7 +73,7 @@ public class TestObject : Base, IInteractive, IBreakable, ICollectable
     /// property name
     /// </summary>
     public string name { get; set; }
-    
+
     /// <summary>
     /// overriding ToString
     /// </summary>
@@ -86,24 +86,15 @@ public class TestObject : Base, IInteractive, IBreakable, ICollectable
     /// </summary>
     public void Interact()
     {
-        if (durability > 0)
-        {
-            Console.WriteLine("Object breaks");
-            durability--;
-            if (durability == 0)
-            {
-                Break();
-            }
-        }
+        Console.WriteLine("Interaction with " + this.name);
     }
     /// <summary>
     /// override public void Break()
     /// </summary>
     public void Break()
     {
-        if (durability == 0)
         {
-            Console.WriteLine("Object is broken");
+            Console.WriteLine("Break " + this.name);
         }
     }
     /// <summary>
@@ -111,9 +102,8 @@ public class TestObject : Base, IInteractive, IBreakable, ICollectable
     /// </summary>
     public void Collect()
     {
-        if (isCollected == false)
         {
-            Console.WriteLine("You have collected object");
+            Console.WriteLine("Collect " + this.name);
             isCollected = true;
         }
     }
