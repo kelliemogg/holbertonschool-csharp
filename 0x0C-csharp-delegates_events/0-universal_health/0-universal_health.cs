@@ -8,11 +8,11 @@ public class Player
     /// <summary>
     /// property string called name
     /// </summary>
-    public string name { get; set; }
+    private string name { get; set; }
     /// <summary>
     /// property float called maxHp
     /// </summary>
-    public float maxHp { get; set; }
+    private float maxHp { get; set; }
     /// <summary>
     /// property float called hp
     /// </summary>
