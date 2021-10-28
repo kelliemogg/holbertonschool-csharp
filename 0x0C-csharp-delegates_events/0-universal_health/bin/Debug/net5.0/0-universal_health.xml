@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>0-universal_health</name>
+    </assembly>
+    <members>
+        <member name="T:Player">
+            <summary>
+            Public class called Player
+            </summary>
+        </member>
+        <member name="P:Player.name">
+            <summary>
+            property string called name
+            </summary>
+        </member>
+        <member name="P:Player.maxHp">
+            <summary>
+            property float called maxHp
+            </summary>
+        </member>
+        <member name="P:Player.hp">
+            <summary>
+            property float called hp
+            </summary>
+        </member>
+        <member name="M:Player.#ctor(System.String,System.Single)">
+            <summary>
+            Constructor for Player
+            </summary>
+        </member>
+        <member name="M:Player.PrintHealth">
+            <summary>
+            Method called PrintHealth()
+            </summary>
+        </member>
+        <member name="T:Player.HealthChanged">
+            <summary>
+            Public delegate called HealthChanged
+            </summary>
+        </member>
+        <member name="E:Player.HealthChangedEvent">
+            <summary>
+            Public event called HealthChanged
+            </summary>
+        </member>
+        <member name="M:Player.OnHealthChanged(System.Int32)">
+            <summary>
+            Public method called OnHealthChanged
+            </summary>
+        </member>
+    </members>
+</doc>
