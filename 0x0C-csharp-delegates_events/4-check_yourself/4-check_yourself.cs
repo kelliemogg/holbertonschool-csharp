@@ -66,7 +66,6 @@ public class Player
     /// </summary>
     public Player(string name = "Player", float maxHp = 100f)
     {
-        this.HPCheck = this.CheckStatus;
         this.name = name;
         this.status = $"{this.name} is ready to go!";
         if (maxHp < 0)
@@ -79,6 +78,7 @@ public class Player
             this.maxHp = maxHp;
         }
         this.hp = this.maxHp;
+        this.HPCheck = this.CheckStatus;
     }
     /// <summary>
     /// Method called PrintHealth()
@@ -102,8 +102,8 @@ public class Player
         }
         else
         {
-            ValidateHP(this.hp -= damage);
             Console.WriteLine($"{name} takes {damage} damage!");
+            ValidateHP(this.hp -= damage);
         }
     }
     /// <summary>
@@ -117,8 +117,8 @@ public class Player
         }
         else
         {
-            ValidateHP(this.hp += heal);
             Console.WriteLine($"{name} heals {heal} HP!");
+            ValidateHP(this.hp += heal);
         }
     }
     /// <summary>
