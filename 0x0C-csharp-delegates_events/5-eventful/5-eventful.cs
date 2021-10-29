@@ -208,7 +208,12 @@ public class Player
         {
             Console.WriteLine($"{name} needs help!");
         }
-        else if (e.currentHp <= 0)
+        else if (e.currentHp == 0)
+        {
+            Console.WriteLine($"{name} is knocked out!");
+            Console.WriteLine("Health has reached zero!");
+        }
+        else
         {
             Console.WriteLine($"{name} is knocked out!");
         }
