@@ -230,7 +230,7 @@ public class Player
     /// <summary>
     /// method called OnCheckStatus
     /// </summary>
-    public void OnCheckStatus(object sender, CurrentHPArgs e)
+    public void OnCheckStatus(CurrentHPArgs e)
     {
         if (e.currentHp < this.maxHp * 0.25f)
         {
