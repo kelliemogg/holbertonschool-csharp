@@ -19,6 +19,25 @@ public enum Modifier
     Strong
 }
 
+
+/// <summary>
+/// class called CurrentHPArgs that inherits from EventArgs with a property called currentHp, a constructor that takes float newHp and sets it as currentHp's value
+/// </summary>
+public class CurrentHPArgs : EventArgs
+{
+    /// <summary>
+    /// Current HP
+    /// </summary>
+    public readonly float currentHp;
+    /// <summary>
+    /// constructor that takes float newHp and sets it as currentHp's value
+    /// </summary>
+    public CurrentHPArgs(float newHp)
+    {
+        this.currentHp = newHp;
+    }
+}
+
 /// <summary>
 /// delegate called CalculateModifier that takes a float amount
 /// </summary>
@@ -37,19 +56,19 @@ public class Player
     /// <summary>
     /// property float called maxHp
     /// </summary>
-    private float maxHp { get; set; }
+    private float maxHp;
     /// <summary>
     /// property float called hp
     /// </summary>
-    public float hp { get; set; }
+    public float hp;
     /// <summary>
     /// Constructor for Player
     /// </summary>
     public Player(string name = "Player", float maxHp = 100f)
     {
-        EventHandler<CurrentHPArgs> HPCheck = CheckStatus;
+        this.HPCheck = this.CheckStatus;
         this.name = name;
-        status = $"{this.name} is ready to go!";
+        this.status = $"{this.name} is ready to go!";
         if (maxHp < 0)
         {
             this.maxHp = 100f;
@@ -83,8 +102,7 @@ public class Player
         }
         else
         {
-            hp -= damage;
-            ValidateHP(hp);
+            ValidateHP(this.hp -= damage);
             Console.WriteLine($"{name} takes {damage} damage!");
         }
     }
@@ -99,8 +117,7 @@ public class Player
         }
         else
         {
-            hp += heal;
-            ValidateHP(hp);
+            ValidateHP(this.hp += heal);
             Console.WriteLine($"{name} heals {heal} HP!");
         }
     }
@@ -109,19 +126,19 @@ public class Player
     /// </summary>
     public void ValidateHP(float newHp)
     {
-        HPCheck(this, new CurrentHPArgs(hp));
         if (newHp < 0)
         {
-            this.hp = 0;
+            newHp = 0;
         }
-        else if (newHp > maxHp)
+        else if (newHp > this.maxHp)
         {
-            this.hp = maxHp;
+            newHp = this.maxHp;
         }
         else
         {
             this.hp = newHp;
         }
+        this.HPCheck(this, new CurrentHPArgs(this.hp));
     }
     /// <summary>
     /// method ApplyModifier that follows the prototype of CalculateModifier
@@ -197,16 +214,4 @@ public class Player
         }
     }
 
-}
-
-/// <summary>
-/// class called CurrentHPArgs that inherits from EventArgs with a property called currentHp, a constructor that takes float newHp and sets it as currentHp's value
-/// </summary>
-public class CurrentHPArgs : EventArgs
-{
-    public readonly float currentHp;
-    public CurrentHPArgs(float newHp)
-    {
-        currentHp = newHp;
-    }
 }
