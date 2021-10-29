@@ -1,0 +1,16 @@
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/obj/Debug/net5.0/3-modified_behavior.csproj.AssemblyReference.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/obj/Debug/net5.0/3-modified_behavior.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/obj/Debug/net5.0/3-modified_behavior.AssemblyInfoInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/obj/Debug/net5.0/3-modified_behavior.AssemblyInfo.cs
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/obj/Debug/net5.0/3-modified_behavior.csproj.CoreCompileInputs.cache
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/bin/Debug/net5.0/3-modified_behavior.deps.json
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/bin/Debug/net5.0/3-modified_behavior.runtimeconfig.json
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/bin/Debug/net5.0/3-modified_behavior.runtimeconfig.dev.json
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/bin/Debug/net5.0/3-modified_behavior.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/bin/Debug/net5.0/ref/3-modified_behavior.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/bin/Debug/net5.0/3-modified_behavior.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/bin/Debug/net5.0/3-modified_behavior.xml
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/obj/Debug/net5.0/3-modified_behavior.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/obj/Debug/net5.0/ref/3-modified_behavior.dll
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/obj/Debug/net5.0/3-modified_behavior.pdb
+/Users/kelliemogg/holbertonschool-csharp/0x0C-csharp-delegates_events/3-modified_behavior/obj/Debug/net5.0/3-modified_behavior.genruntimeconfig.cache
