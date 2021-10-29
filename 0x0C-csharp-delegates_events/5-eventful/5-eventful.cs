@@ -232,7 +232,7 @@ public class Player
     /// </summary>
     public void OnCheckStatus(object sender, CurrentHPArgs e)
     {
-        if (e.currentHp < maxHp * 0.25f)
+        if (e.currentHp < this.maxHp * 0.25f)
         {
             this.HPCheck = HPValueWarning;
         }
