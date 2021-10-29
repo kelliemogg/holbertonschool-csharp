@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>4-check_yourself</name>
+    </assembly>
+    <members>
+        <member name="T:Modifier">
+            <summary>
+            create an enum called Modifier with the values Weak, Base, Strong
+            </summary>
+        </member>
+        <member name="F:Modifier.Weak">
+            <summary>
+            Weak modifier
+            </summary>
+        </member>
+        <member name="F:Modifier.Base">
+            <summary>
+            Base modifier
+            </summary>
+        </member>
+        <member name="F:Modifier.Strong">
+            <summary>
+            Strong modifier
+            </summary>
+        </member>
+        <member name="T:CalculateModifier">
+            <summary>
+            delegate called CalculateModifier that takes a float amount
+            </summary>
+        </member>
+        <member name="T:Player">
+            <summary>
+            Public class called Player
+            </summary>
+        </member>
+        <member name="P:Player.name">
+            <summary>
+            property string called name
+            </summary>
+        </member>
+        <member name="P:Player.maxHp">
+            <summary>
+            property float called maxHp
+            </summary>
+        </member>
+        <member name="P:Player.hp">
+            <summary>
+            property float called hp
+            </summary>
+        </member>
+        <member name="M:Player.#ctor(System.String,System.Single)">
+            <summary>
+            Constructor for Player
+            </summary>
+        </member>
+        <member name="M:Player.PrintHealth">
+            <summary>
+            Method called PrintHealth()
+            </summary>
+        </member>
+        <member name="T:Player.CalculateHealth">
+            <summary>
+            delegate called CalculateHealth that takes a float amount
+            </summary>
+        </member>
+        <member name="M:Player.TakeDamage(System.Single)">
+            <summary>
+            event called TakeDamage
+            </summary>
+        </member>
+        <member name="M:Player.HealDamage(System.Single)">
+            <summary>
+            method called HealDamage
+            </summary>
+        </member>
+        <member name="M:Player.ValidateHP(System.Single)">
+            <summary>
+            method called ValidateHP that sets the new value of the player's hp
+            </summary>
+        </member>
+        <member name="M:Player.ApplyModifier(System.Single,Modifier)">
+            <summary>
+            method ApplyModifier that follows the prototype of CalculateModifier
+            </summary>
+        </member>
+        <member name="T:Player.HealthChanged">
+            <summary>
+            Public delegate called HealthChanged
+            </summary>
+        </member>
+        <member name="E:Player.HealthChangedEvent">
+            <summary>
+            Public event called HealthChanged
+            </summary>
+        </member>
+        <member name="M:Player.OnHealthChanged(System.Int32)">
+            <summary>
+            Public method called OnHealthChanged
+            </summary>
+        </member>
+        <member name="E:Player.HPCheck">
+            <summary>
+            EventHandler called HPCheck of type CurrentHPArgs
+            </summary>
+        </member>
+        <member name="P:Player.status">
+            <summary>
+            new private property status of type string
+            </summary>
+        </member>
+        <member name="M:Player.CheckStatus(System.Object,CurrentHPArgs)">
+            <summary>
+            method called CheckStatus
+            </summary>
+        </member>
+        <member name="T:CurrentHPArgs">
+            <summary>
+            class called CurrentHPArgs that inherits from EventArgs with a property called currentHp, a constructor that takes float newHp and sets it as currentHp's value
+            </summary>
+        </member>
+    </members>
+</doc>

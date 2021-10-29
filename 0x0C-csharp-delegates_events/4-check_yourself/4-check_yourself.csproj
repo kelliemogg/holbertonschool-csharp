@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_4_check_yourself</RootNamespace>
+  </PropertyGroup>
+
+</Project>
