@@ -128,11 +128,11 @@ public class Player
     {
         if (newHp < 0)
         {
-            newHp = 0;
+            this.hp = 0;
         }
-        else if (newHp > this.maxHp)
+        else if (newHp > maxHp)
         {
-            newHp = this.maxHp;
+            this.hp = maxHp;
         }
         else
         {
