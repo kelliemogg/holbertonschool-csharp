@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "54zJJ15YnFcifsJbbact1AVwuGMJgH257guzLy4aYjmRiI3SdPO2J3m56OuTmfDwKR2edTtBYBfcKrnkC79w6Q==",
+  "success": true,
+  "projectFilePath": "/Users/kelliemogg/holbertonschool-csharp/0x0D-csharp-text_based_interface/InventoryLibrary/InventoryLibrary.csproj",
+  "expectedPackageFiles": [
+    "/Users/kelliemogg/.nuget/packages/system.text.json/5.0.2/system.text.json.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
